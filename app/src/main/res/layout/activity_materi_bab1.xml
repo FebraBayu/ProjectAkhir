@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FCFCFC">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="370dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/binary"
+                            />
+
+                    </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/textViewBab1Materi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Paragraph1Bab1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textViewBab1Materi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="@string/Paragraph3Bab1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#000"
+                        android:textSize="16dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

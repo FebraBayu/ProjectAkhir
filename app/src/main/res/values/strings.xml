@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">La Conversione</string>
+    <string name="Paragraph1Bab1">
+        \n\n
+        <b>1.1. Pengertian Umum</b>
+        \n\n
+        Rangkaian digital meliputi setiap aspek kehidupan kita, peralatan ini tidak hanya
+digunakan pada sistem/peralatan teknik saja, tetapi juga untuk memenuhi
+kebutuhan komsumen lainnya seperti personal computer, microwave oven,
+automobile, airline reservation system, telephone exchange, digital voltmeter,
+calculator, dan lain sebagainya.
+        \n\n
+        Semua itu melibatkan rangkaian digital untuk
+tujuan pemrosesan informasi dan/atau membentuk fungsi kontrolyang diinginkan.
+Pada hampir semua aktifitas, kita selalu berhubungan dengan quantitas dan
+pengukuran. Informasi ini diperoses dalam bentuk digital yang dapat
+diekspresikan dalam bentuk elektronik.
+        \n\n\n
+        <b>1.2. Data Analog dan Digital</b>
+        \n\n
+            Langkah pertama dalam operasi pemrosesan data adalah menentukan informasi
+tentang obyek atau sesuatu yang menarik. Perolehan informasi biasanya
+melibatkan pengambilan data pengukuran.
+        \n\n
+        Pengukuran dapat dibagi menjadi 2 katagori; Pengukuran analog adalah terusmenerus (continous) dan merupakan fungsi dari para meter yang diukur.
+Sebaliknya Digital adalah terputus-putus (discrete) dan ini hanya dapat berubah
+pada satuan yang tetap.
+
+
+
+    </string>
+
+    <string name="Paragraph3Bab1">
+         \n\n
+   <b>1.3. LOGIKA BINER</b>
+        \n\n
+        Logika biner mensyaratkan 2 karakteristik yang berbeda : variabel yang
+mempunyai 2 harga dan tepat untuk operasi logika. Berbeda dengan bilanganbilangan biasa, harga variabel dalam logika biner hanya memiliki 2 keadaan.
+Suatu pasangan yang dapat menunjukkan 2 keadaan tersebut dapat diambil contoh
+sebagai berikut :
+        \n\n
+Buka dan tutup, tinggi (high) dan rendah (low), panas dan dingin, benar dan salah.
+Pasangan kondisi tersebut dapat dipresentasikan sebagai variabel biner yaitu ‘0’
+dan ‘1’. Jika dua kondisi tersebut dioperasikan berulang-ulang maka akan terjadi
+pulsa. Dan pulsa merupakan komponen yang sangat penting dalam rangkaian dan
+sistem digital, sebagai contoh level tegangan yang berubah dari tinggi ke randah
+atau rendah ke tinggi.
+        \n\n\n\n
+    </string>
+
+
+    <!--    <string name="Paragraph1Bab2">-->
+    <!--        \n\n\n\n-->
+    <!--       <b> 1.4. SISTEM BILANGAN-->
+    <!--        \n\n\n-->
+    <!--1.4.1. Pengertian Umum. </b>-->
+    <!--        \n\n-->
+    <!--Dalam kehidupan sehari-hari, kita sudah terbiasa menggunakan sistem bilangan-->
+    <!--desimal yang mempunyai komponen dari 0 sampai 9. Jika bilangan tersebut lebih-->
+    <!--dari 9 maka harus dituliskan dalam 2 digit atau lebih dengan ketentuan bahwa-->
+    <!--posisi paling kanan adalah satuan kemudian puluhan, ratusan, ribuan dst.-->
+    <!--Untuk mengekspresikan bilangan desimal dapat ditunjukkan seperti contoh-->
+    <!--berikut : Sebuah bilangan desimal 7392 mewakili suatu persamaan penjumlahan-->
+    <!--dari :-->
+    <!--        \n\n-->
+    <!--7 ribuan + 3 Ratusan + 9 puluhan + 2 satuan-->
+    <!-- Ribuan, ratusan, puluhan dan satuan merupakan pemangkatan dari 10 yang-->
+    <!--menunjukkan posisi dari koefisien-koefisien. Untuk lebih jelasnya dapat ditulis-->
+    <!--sebagai berikut :-->
+    <!--        \n\n-->
+    <!--7392 = 7 x 103 + 3 x 102 + 9 x 101 + 2 x 100-->
+    <!--        \n\n-->
+    <!--Secara umum posisi koefisien dapat ditulis sebagai berikut :-->
+    <!--        \n-->
+    <!--= a 3 a 2 a 1 a 0 , a -1 a -2 a -3-->
+    <!--        \n\n-->
+    <!--atau dapat diexpresikan sebagai berikut :-->
+    <!--        \n\n-->
+    <!--= a 3 . 103 + a 2 . 102 + a 1 . 101 + a 0 . 100 + a -1 . 10-1 + a -2 . 10-2 + a -3 . 10-3-->
+    <!--        \n\n-->
+    <!--Dari penjelasan diatas, maka dapat dituliskan rumus umum dan diekspresikan-->
+    <!--dengan bilangan R dan koefisien a :-->
+    <!--        \n\n-->
+    <!--a n . Rn + a n-1 . Rn-1 + … + a 1 . R1 + a 0 . R0 + a -1 . R-1 + … + a -n . R-n ……. 1).-->
+    <!--        \n\n\n\n-->
+
+    <!--    </string>-->
+
+    <string name="Paragraph1Bab2">
+        \n\n
+        <b>1.4. Basis Bilangan</b>
+        \n\n\n
+Dalam sistem digital ada beberapa sistem bilangan yang sering dipakai,
+diantaranya :
+        \n\n
+- Bil. Biner bilangan dasar yang dipakai untuk menipulasi data pada hardware.
+        \n
+- Bil. Oktal , bilangan ini dipakai pada sispemrograman untuk komputer
+generasi awal.
+        \n
+- Bil Desimal adalah bilangan yang setiap hari kita pakai.
+        \n
+- Bil Hexadesimal adalah bilangan yang dipakai untuk manipulasi data pada
+software operasi microproccessor saat ini.
+        \n\n\n\n
+
+    </string>
+
+    <string name="Paragraph2Bab2">
+        \n\n
+        <b>1.5. Konversi Bilangan</b>
+        \n\n
+Untuk mengetahui hubungan antara jenis bilangan satu dengan yang lain, maka
+perlu dijelaskan bagaimana sistem konversi bilangan tsb, dengan menggunakan
+referensi bilangan yang paling kita kenal yaitu Bilangan Desimal.
+        \n\n
+        <b>1.5.1. Konversi Bilangan Lain ke Bilangan Desimal.</b>
+        \n\n
+Sebagai contoh, jika bilangan biner dikonversikan ke desimal akan membentuk
+suatu penjumlahan dari 2 yang mempunyai komponen 1 .\n
+        contoh:
+    </string>
+    <!--Contoh :-->
+    <!--        \n\n-->
+    <!--(1010,011)2 = 1 x 23 + 0 x 22 + 1x 21 + 0 x 20 + 0 x 2-1 + 1 x 2-2 + 1x 2-3-->
+    <!--        \n-->
+    <!-- = 8 + 0 + 2 + 0 + 0 + 0,25 + 0,125-->
+    <!--        \n-->
+    <!-- = ( 10,375 )10-->
+    <!--        \n\n-->
+    <string name="Paragraph2.5Bab2">
+    \n\n
+        Konversi dari bilangan desimal ke bilangan lain dapat dilakukan dengan
+menggunakan prinsip : membagi bilangan desimal dengan basis bilangan tujuan
+secara berulang-ulanghingga mendapatkan hasil pembagian sama dengan 0, dan
+menuliskan sisanya pada setiap pembagian.\n
+Hal ini dapat dijelaskan dengan contoh berikut ini.
+Contoh :\n\n
+        Konversikan bilangan desimal 41 ke bil biner (bil. berbasis 2) menggunakan
+sistem sisa
+        \n
+
+    </string>
+
+    <string name="Paragraph3Bab2">
+\n
+        Maka :
+        \n
+( 41 )10 = (a5 a4 a3 a2 a1 a0 )2 = ( 1 0 1 0 0 1 )2
+    </string>
+
+    <string name="Paragraph4Bab2">
+        \n\n
+        <b>1.5.2. Bilangan OKTAL dan HEXADESIMAL</b>
+        \n\n
+Konversi dari dan ke bilangan biner, oktal, hexadesimal mempunya peran yang
+sangat penting dalam komputer digital. Karena ketiga jenis bilangan tersebut
+memiliki hubungan yang unik 23
+ = 8 dan 24
+ = 16 , setiap sati digit bilangan oktal
+merupakan konversi dari 3 digit biner dan setiap digit dari hexadesimal
+merupakan konversi dari 4 bilangan biner.
+        \n
+ Konversi dari bilangan biner ke bilangan oktal dapat dilakukan dengan
+mengelompokkan bilangan biner setiap 3 digit , yang dimulai dari titik biner
+(koma “,”) ke kiri dan ke kanan, contoh dibawah ini menggambarkan prosedur di
+atas.
+
+    </string>
+
+    <string name="Paragraph1Bab3">
+        \n\n
+       <b>1.6. OPERASI ARITMATIKA</b>
+        \n\n
+Operasi aritmatika dengan bilangan berbasis-R mempunyai aturan yang sama
+dengan sistem desimal. Seperti halnya desimal, bilangan biner dapat ditambah,
+dikurangi, dikalikan dan dibagi. Karena bilangan biner ini hanya mempunyai 2
+komponen (0 dan 1) maka operasi aritmatika dapat kita lakukan dengan lebih
+singkat dan sederhana. Dan sebenarnya semua operasi aritmatika didasarkan pada
+sistem penjumlahan.
+\n\n
+        <b>1.6.1. PENJUMLAHAN</b>
+        \n\n
+Sebelum membahas lebih lanjut tentang penjumlahan bilangan biner ini,
+sebaiknya kita lihat kembali aturan penjumlahan pada bilangan desimal.
+Pada penjumlahan desimal, yang pertama dijumlahkan adalah kolom satuan, jika
+hasil penjumlahan tsb kurang dari sepuluh maka hasil tsb dituliskan pada kolom
+satuan. Jika hasil penjumlahannya lebih besar dari sepuluh, satuan dituis pada
+kolom satuan dan satu dilimpahkan masuk ke kolom puluhan. Kemudian, pada kolom puluhan dijumlahkan bersama dengan limpahan (yang
+selanjutnya disebut CARRY) jika ada. Kalau hasilnya kurang dari sepuluh,
+hasilnya dituliskan pada kolom puluhan, jika hasilnya lebih besar dari sepuluh,
+maka satuan dituliskan pada kolom puluhan dan satu dilimpahkan ke kolom
+ratusan, dst.
+        \n\n
+        Tabel Penjumlahan 2 buah bil. Biner 1 digit
+        \n\n
+    </string>
+
+    <string name="Paragraph2Bab3">
+\n
+        Untuk penjumlahan biner dengan digit lebih dari satu, dapat dijelaskan dengan
+contoh-contoh berikut :
+        \n\n
+
+    </string>
+
+    <string name="Paragraph3Bab3">
+\n\n
+        <b>1.6.2. PENGURANGAN</b>
+\n\n
+    Jika kita mengurangkan bilangan, kadang kita harus meminjam dari bit yang lebih
+tinggi. Pinjam (borrow) ini dibutuhkan jika kita mengurangkan 0 dengan 1 .
+Dalam hal ini, jika 1 dipinjam dari bit berikutnya maka akan timbul 10^2 pada baris
+yang dikurangi.
+        \n\n
+
+    </string>
+
+    <string name="Paragraph1Bab4">
+        \n\n
+       <b>1.7. KOMPLEMEN</b>
+        \n\n
+Komplemen digunakan dalam komputer digital untuk menyederhanakan operasi
+pengurangan (subtraction) dan untuk manipulasi logika. Ada dua tipe komplemen
+untuk setiap sistem bilangan basis-r :
+        \n\n
+a. Komplemen r
+        \n
+b. Komplemen r-1
+        \n\n
+Jika harga tersebut disubstitusikan , dua tipe tsb akan diberinama komplemen 2
+dan komplemen 1 untuk bilangan biner, atau komplemen 10 dan komplemen 9
+untuk bilangan desimal.
+        \n\n\n
+<b>1.7.1. Komplemen r</b>
+        \n\n
+Suatu bilangan positif N dalam basis-r dengan bilangan bulat sebanyak n digit,
+maka komplemen r dari N dapat didefinisikan sebagai rn - N untuk N  0 dan 0
+untuk N = 0. Contoh-contoh berikut ini akan memperjelas definisi diatas :
+        \n\n
+
+
+    </string>
+
+    <string name="Paragraph2Bab4">
+        \n
+        <b>1.7.1.1. Pengurangan dengan Komplemen r</b>
+        \n\n
+Metode penguranganlangsung yang sering kita gunakan (seperti pada desimal)
+yaitu dengan menggunakan konsep peminjaman. Pada metode ini, kita pinjam 1
+dari bit yang lebih tinggi jika digit yang dikurangi lebih kecil dari digit pengurangannya. Jika pengurangan ini dikembangkan pada komponen digital,
+metode diatas terlihat kurang efisien maka disini dikembangkan dengan metode
+komplemen dan penjumlahan komplemen.
+        \n\n
+        Pengurangan dua bilangan positif (M – N) yang keduanya mempunyai basis yang
+sama ( r ) , dapat dilakukan dengan prosedur berikut :
+        \n\n
+1. Jumlahkan bilangan yang dikurangi (M) dengan komplemen r dari pengurang
+(N).
+        \n
+2. Lihat hasil dari step 1 untuk sebuah end carry (limpahan akhir)
+        \n
+a. Jika terjadi end carry abaikan itu.
+        \n
+b. Jika tidak terjadi end carry maka hasil pengurangannya adalah komplemen
+dari hasil step 1 dan tambahkan tanda negatif ( - ) didepannya.
+        \n\n
+Contoh-contoh berikut ini menggambarkan prosedur diatas :
+        \n
+
+    </string>
+
+    <string name="Paragraph3Bab4">
+        \n
+        <b>1.7.1.2. Komplemen ( r – 1 )</b>
+        \n\n
+Suatu bilangan N pada basis r dengan bagian bilangan bulat sebanyak n digit dan
+bagian pecahan m digit, maka komplemen ( r – 1 ) dari N didefinisikan sebagai
+r^n
+-r^-m-N. Contoh-contoh secara numerik dapat diberikan sebagai berikut :
+
+    </string>
+
+    <string name="Paragraph4Bab4">
+        \n
+        Dari definisi dan perbandingan hasil-hasil yang didapat pada contoh-contoh
+diatas, dapat diketahui bahwa komplemen r bisa ditentukan dari komplemen ( r –
+1 ) dengan penambahan r^-m pada digit yang paling rendah (LSB). Sebagai contoh:
+Komplemen 2 dari 1 0 1 1 0 1 0 0 dapat dihasilkan dari komplemen 1
+yaitu 0 1 0 0 1 0 1 1 ditambah 1 maka didapat 0 1 0 0 1 1 0 0 .
+        \n\n
+
+    </string>
+
+    <string name="Paragraph5Bab4">
+
+        <b>1.7.1.3. Pengurangan dengan komplemen ( r – 1 )</b>
+        \n\n
+Prosedur pada pengurangan dengan komplemen (r – 1) adalah sama dengan
+prosedur yang digunakan pada komplemen r, kecuali satu variasi yaitu end around-carry (limpahan memutar) seperti terlihat dibawah ini.
+Pengurangan M – N, keduanya adalah bilangan positif dengan baisi r, dapat
+dihitung dengan prosedur berikut:
+        \n\n
+1. Tanbahkan bilangan yang dikurangi M dengan komplemen (r – 1) dari
+pengurang N.
+        \n
+2. Lihat hasil dari step 1 untuk end-carry nya.
+        \n
+a. Jika terjadi end-carry, tambahkan 1 ke digit paling rendah (end-around carry).
+        \n
+b. Jika tidak terjadi end-carry, ambil komplemen (r – 1) dari bilangan yang
+        \n\n
+dihasilkan oleh step 1 dan tuliskan tanda negatif ( - ) didepannya.
+Contoh-contoh dibawah ini menggambarkan prosedur tersebut :
+
+    </string>
+    <string name="title_activity_keyboard_view">keyboard_view</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>

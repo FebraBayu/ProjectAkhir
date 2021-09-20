@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FCFCFC">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/binary4"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewBab3Materi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Paragraph1Bab4"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/komplement001" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewBab3Materi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Paragraph2Bab4"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pengurangan02" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewBab3Materi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Paragraph3Bab4"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pengurangankomplment01" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewBab3Materi4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Paragraph4Bab4"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewBab3Materi5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Paragraph5Bab4"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pengurangankomplment02" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
